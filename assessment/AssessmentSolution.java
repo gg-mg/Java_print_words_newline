@@ -41,16 +41,13 @@ public class AssessmentSolution {
     }
     public String SplitToLines(String stringToSplit, int maximumLineLength)
 	{
-    	//str = str.replaceAll("[0-9]", "X");
-    	  //return stringToSplit.replace("(?<=\\G.{" + maximumLineLength +"})", "\n");
+    	
     	return  stringToSplit.replaceAll("(.{" + maximumLineLength + "})(?:\\s|$)", "$1\n");
 	}
     
-   // String[] tokens = str.split("(?<=\\G.{" + size + "})");
-    
-   // public MatchCollection SplitToLines(String stringToSplit, int maximumLineLength)
+   //public MatchCollection SplitToLines(string stringToSplit, int maximumLineLength)
     //{
-    	
-     //   return Regex.Matches(stringToSplit, "(.{1," + maximumLineLength +"})(?:\s|$)");
-   // }
+     //   return Regex.Matches(stringToSplit, @"(.{1," + maximumLineLength +@"})(?:\s|$)");
+    //}
+    
 }
