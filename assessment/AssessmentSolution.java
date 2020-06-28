@@ -1,5 +1,6 @@
 package com.fdmgroup.assessment;
 
+import java.util.List;
 import java.util.ArrayList;
 
 import jdk.nashorn.internal.runtime.regexp.joni.Regex;
@@ -12,7 +13,8 @@ public class AssessmentSolution {
 	
     public static  void wrap( String str, int myInt) 
     { 
-    	ArrayList<String> results = new ArrayList<String>();
+    	List<String> results = new ArrayList<String>();
+    	//ArrayList<String> results = new ArrayList<String>();Works as well
 
         int length = str.length();
         
